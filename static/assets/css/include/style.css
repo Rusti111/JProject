@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('../../fonts/ClashGrotesk_Complete/ClashGrotesk_Complete/Fonts/TTF/ClashGrotesk-Variable.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    max-width: 1400px;
+    height: 1313px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* <!-- START HEADER--> */
+.header_header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.header_header nav ul {
+    color: white;
+
+}
+
+.header_header a {
+    color: white;
+}
+
+.header_header nav a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.header_header nav a li {
+    list-style: none;
+    margin-bottom: 25px;
+    font-family: 'Clash Grotesk';
+
+}
+
+.header_block {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 3%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+    color: white;
+    font-size: 140px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2;
+    font-family: 'Clash Grotesk';
+    font-weight: 300;
+
+}
+
+.background-image {
+    width: 100%;
+    margin-top: 390px;
+    display: block;
+}
+
+.header_button button {
+    margin-top: 50px;
+    width: 1400px;
+    height: 99px;
+    border-radius: 40px;
+    border: none;
+    gap: 10px;
+    background-color: rgba(221, 28, 26, 1);
+    color: white;
+    font-size: 28px;
+}
+
+/* <!-- END HEADER --> */
+
+
+
+/* <!-- START NUMBERS --> */
+
+.numbers {
+    width: 1400px;
+    height: 1027px;
+    margin: 0 auto;
+    margin-top: 200px;
+    color: white;
+}
+
+.numbers_btn_text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.numbers_btn {
+    width: 295px;
+    height: 52px;
+    padding: 12px 24px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(1, 1, 1, 0);
+    border-radius: 100px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+.numbers_text_h2 {
+    font-size: 78px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Clash Grotesk';
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.numbers_span {
+    font-size: 78px;
+    color: rgba(221, 28, 26, 1);
+    text-transform: uppercase;
+    font-family: 'Clash Grotesk';
+}
+
+.numbers_block {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+
+.numbers_text_h4 {
+    width: 584px;
+    height: 73px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Clash Grotesk';
+}
+
+.numbers_table_line {
+    width: 690px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 35px;
+}
+
+.numbers_table_row {
+    width: 40%;
+    height: 27px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'Clash Grotesk';
+    font-weight: 600;
+}
+
+.numbers_table_cell_n {
+    width: 150px;
+}
+
+.numbers_table_cell_flex {
+    width: 300px;
+    margin-left: 150px;
+    text-align: left;
+}
+
+.numbers_btn_red {
+    margin-top: 50px;
+    width: 690px;
+    height: 100px;
+    background-color: rgba(221, 28, 26, 1);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Clash Grotesk';
+    font-size: 26px;
+    border-radius: 40px;
+    border: none;
+}
+
+/* <!-- END NUMBERS --> */
+
